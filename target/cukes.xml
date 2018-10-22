@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="76.166557">
+<testcase classname="Account Feature" name="WebPublishing Upload Avatar Image" time="14.381271">
+<system-out><![CDATA[Given Runmode is "Y"........................................................passed
+Given I am logged into wp.nyu.edu in "Mozilla"..............................passed
+When I click on "Your_Avatar_Link" link and upload a picture................passed
+Then the picture should be uploaded successfully............................passed
+And I close the browser.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Account Feature" name="WebPublishing Upload Avatar Image 2" time="12.415151">
+<system-out><![CDATA[Given Runmode is "Y"........................................................passed
+Given I am logged into wp.nyu.edu in "Chrome"...............................passed
+When I click on "Your_Avatar_Link" link and upload a picture................passed
+Then the picture should be uploaded successfully............................passed
+And I close the browser.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Account Feature" name="Verify all the links on WebPublishing landing page is funcitonal" time="24.313082">
+<system-out><![CDATA[Given Runmode is "Y"........................................................passed
+Given I am logged into wp.nyu.edu in "Mozilla"..............................passed
+When I click on "Create" Link...............................................passed
+Then I should see "Admin_Email_Field".......................................passed
+When I click on "Support" Link..............................................passed
+Then I should see "WebPublishing_Help_Label"................................passed
+When I click on "Updates" Link..............................................passed
+Then I should see "Recent_Posts"............................................passed
+And I close the browser.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Account Feature" name="Verify all the links on WebPublishing landing page is funcitonal 2" time="25.057053">
+<system-out><![CDATA[Given Runmode is "Y"........................................................passed
+Given I am logged into wp.nyu.edu in "Chrome"...............................passed
+When I click on "Create" Link...............................................passed
+Then I should see "Admin_Email_Field".......................................passed
+When I click on "Support" Link..............................................passed
+Then I should see "WebPublishing_Help_Label"................................passed
+When I click on "Updates" Link..............................................passed
+Then I should see "Recent_Posts"............................................passed
+And I close the browser.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

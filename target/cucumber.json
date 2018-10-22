@@ -1,0 +1,656 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 174637,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforevalidation()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "WebPublishing Upload Avatar Image",
+        "description": "",
+        "id": "account-feature;webpublishing-upload-avatar-image;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 75774,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aftervalidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 97116379,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Runmode is \"Y\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Y",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinition.Runmode_is(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4725369396,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am logged into wp.nyu.edu in \"Mozilla\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mozilla",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinition.i_am_logged_into_wp_nyu_edu_in(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8799638952,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on \"Your_Avatar_Link\" link and upload a picture",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your_Avatar_Link",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinition.i_click_on_link_and_upload_a_picture(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 231216427,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the picture should be uploaded successfully",
+            "match": {
+              "location": "stepDefinition.the_picture_should_be_uploaded_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 527679474,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I close the browser",
+            "match": {
+              "location": "stepDefinition.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 45730,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforevalidation()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "WebPublishing Upload Avatar Image",
+        "description": "",
+        "id": "account-feature;webpublishing-upload-avatar-image;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 47257,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aftervalidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 86695,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Runmode is \"Y\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Y",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinition.Runmode_is(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6391126918,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am logged into wp.nyu.edu in \"Chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinition.i_am_logged_into_wp_nyu_edu_in(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5813821350,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on \"Your_Avatar_Link\" link and upload a picture",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your_Avatar_Link",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinition.i_click_on_link_and_upload_a_picture(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54086736,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the picture should be uploaded successfully",
+            "match": {
+              "location": "stepDefinition.the_picture_should_be_uploaded_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 155935884,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I close the browser",
+            "match": {
+              "location": "stepDefinition.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 146510,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforevalidation()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Verify all the links on WebPublishing landing page is funcitonal",
+        "description": "",
+        "id": "account-feature;verify-all-the-links-on-webpublishing-landing-page-is-funcitonal;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 39604,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aftervalidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 121912,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Runmode is \"Y\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Y",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinition.Runmode_is(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3822773390,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I am logged into wp.nyu.edu in \"Mozilla\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mozilla",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinition.i_am_logged_into_wp_nyu_edu_in(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6784326225,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on \"Create\" Link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Create",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinition.i_click_on_Link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18581631,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should see \"Admin_Email_Field\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin_Email_Field",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinition.i_should_see(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7173258090,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click on \"Support\" Link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Support",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinition.i_click_on_Link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14052823,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I should see \"WebPublishing_Help_Label\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WebPublishing_Help_Label",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinition.i_should_see(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5952534512,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click on \"Updates\" Link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Updates",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinition.i_click_on_Link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15245408,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I should see \"Recent_Posts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Recent_Posts",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinition.i_should_see(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 532002079,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I close the browser",
+            "match": {
+              "location": "stepDefinition.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 58468,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforevalidation()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Verify all the links on WebPublishing landing page is funcitonal",
+        "description": "",
+        "id": "account-feature;verify-all-the-links-on-webpublishing-landing-page-is-funcitonal;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 69916,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aftervalidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 49580,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Runmode is \"Y\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Y",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinition.Runmode_is(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5293746225,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I am logged into wp.nyu.edu in \"Chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinition.i_am_logged_into_wp_nyu_edu_in(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5916819342,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on \"Create\" Link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Create",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinition.i_click_on_Link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31665557,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should see \"Admin_Email_Field\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin_Email_Field",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinition.i_should_see(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7776067647,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click on \"Support\" Link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Support",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinition.i_click_on_Link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31279114,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I should see \"WebPublishing_Help_Label\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WebPublishing_Help_Label",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinition.i_should_see(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5819842644,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click on \"Updates\" Link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Updates",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinition.i_click_on_Link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30605628,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I should see \"Recent_Posts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Recent_Posts",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinition.i_should_see(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 156848721,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I close the browser",
+            "match": {
+              "location": "stepDefinition.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Account Feature",
+    "description": "\nIn order to verify that all the components are working as expected\nAs a user with valid credentials\nI want to run through all the test cases.",
+    "id": "account-feature",
+    "keyword": "Feature",
+    "uri": "Account.feature"
+  }
+]
