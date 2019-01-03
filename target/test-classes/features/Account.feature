@@ -1,8 +1,8 @@
 Feature: Account Feature
 
-In order to verify that all the components are working as expected
+In order to verify that all the components with image loadking and top p nav are working as expected
 As a user with valid credentials
-I want to run through all the test cases.  
+I want to run through all the test cases for image loading and wp navigation.  
 
 
 
@@ -17,7 +17,7 @@ And I close the browser
 Examples:
 |Runmode|BrowserType|
 |   Y	| Mozilla   |
-|   Y   | Chrome    |
+|   N   | Chrome    |
 
 @RegressionTest
 Scenario Outline: Verify all the links on WebPublishing landing page is funcitonal
@@ -33,5 +33,5 @@ And I close the browser
 
 Examples:
 |Runmode|BrowserType|
-|   Y	| Mozilla   |
-|   Y   | Chrome    |
+|   N	| Mozilla   |
+|   N   | Chrome    |

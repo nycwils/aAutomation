@@ -26,7 +26,7 @@ public class stepDefinition {
 	
 	WebConnector selenium = WebConnector.getInstance();
 	
-	
+
 	
 	/////////////WebPublishing Step Definitions Below - Start///////////////////
 	
@@ -47,6 +47,7 @@ public class stepDefinition {
 	public void i_am_on_wp_nyu_edu_in(String browser) throws Throwable {
 		selenium.openBrowser(browser);
 		selenium.navigate("webpublishingURL");
+		
 	}
 
 
@@ -54,10 +55,14 @@ public class stepDefinition {
 	public void i_click_on_link_and_upload_a_picture(String arg1) throws Throwable {
 	   
 		
-		selenium.click_link_text(arg1);
-		selenium.send_image("/Users/wl41/Desktop/pic.png", "chooseFileButton");
-		selenium.click("Image_Upload_Button");
-		selenium.click("Crop_Image_Button");
+			selenium.click_link_text(arg1);
+			selenium.send_image("/Users/wl41/Desktop/pic.png", "chooseFileButton");
+			selenium.click("Image_Upload_Button");
+			selenium.click("Crop_Image_Button");
+		
+		    
+		
+
 	    
 	}
 

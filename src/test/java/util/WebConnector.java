@@ -1,6 +1,8 @@
 package util;
 
+import java.io.File;
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Iterator;
@@ -10,17 +12,22 @@ import java.util.Random;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Platform;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+
+import cucumber.api.Scenario;
 
 public class WebConnector {
 	
@@ -33,13 +40,13 @@ public class WebConnector {
 	//Logger APPLICATION_LOGS = Logger.getLogger("devpinoyLogger");
 	Properties OR = null;
 	Properties CONFIG = null;
-	WebDriver driver = null;
-	WebDriver mozilla = null;
-	WebDriver chrome = null;
-	static WebConnector w;
+	public static WebDriver driver = null;
+	public static WebDriver mozilla = null;
+	public static WebDriver chrome = null;
+	public static WebConnector w;
 	
 	
-	private WebConnector(){
+	public WebConnector(){
 		
 		if(OR==null){
 			try{
@@ -481,9 +488,37 @@ public void sauceLab() throws MalformedURLException{
 
 }
 	
+public Scenario myScenario;
+public void i_take_a_screenshot() throws Throwable {
+	
+    try {
+        
+    	if (myScenario.isFailed()) {
+    		myScenario.embed(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES), "image/png");
+    	}
+    	
+    } catch (ClassCastException cce) {
+        cce.printStackTrace();
+    }
+
+}
+
+public void takeScreenShot (String fileName){
+	File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+	try {
+		//workspace directory --> FileUtils.copyFile(scrFile, new File(System.getProperty("user.dir")+"//screenshots//"+fileName+".jpg"));
+		FileUtils.copyFile(scrFile, new File("//Users//wl41//Desktop//screenshot"+fileName+".jpg"));
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+		System.out.println("This THIS LINE RUNNNNNNNNNNN?????????");
+	}	
+}
+
 	//***********LOGGING********************/
 	//public void log(String msg){
 	//	APPLICATION_LOGS.debug(msg);
 	//}
+	
 	
 }
