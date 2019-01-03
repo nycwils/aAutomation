@@ -33,5 +33,5 @@ And I close the browser
 
 Examples:
 |Runmode|BrowserType|
-|   N	| Mozilla   |
-|   N   | Chrome    |
+|   Y	| Mozilla   |
+|   Y   | Chrome    |
