@@ -79,7 +79,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 743357,
+  "duration": 724956,
   "status": "passed"
 });
 formatter.scenario({
@@ -137,7 +137,7 @@ formatter.match({
   "location": "stepDefinition.Runmode_is(String)"
 });
 formatter.result({
-  "duration": 89152588,
+  "duration": 94914240,
   "status": "passed"
 });
 formatter.match({
@@ -150,7 +150,7 @@ formatter.match({
   "location": "stepDefinition.i_am_logged_into_wp_nyu_edu_in(String)"
 });
 formatter.result({
-  "duration": 4691485232,
+  "duration": 4391234061,
   "status": "passed"
 });
 formatter.match({
@@ -163,29 +163,29 @@ formatter.match({
   "location": "stepDefinition.i_click_on_link_and_upload_a_picture(String)"
 });
 formatter.result({
-  "duration": 30028157760,
-  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: Your Avatarrr\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.4.0\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027WL41APPLEMACPROSN-F5KQ10MNF9VN.CDV.NYU.EDU\u0027, ip: \u0027fe80:0:0:0:c84:3324:b6f8:81d0%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.4\u0027, java.version: \u00271.8.0_51\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile\u003d/var/folders/tl/r7p60zdd2yv85_555mclzzy1_g0yrr/T/rust_mozprofile.cTQRBFUFhUkv, rotatable\u003dfalse, moz:geckodriverVersion\u003d0.23.0, timeouts\u003d{implicit\u003d0.0, pageLoad\u003d300000.0, script\u003d30000.0}, pageLoadStrategy\u003dnormal, moz:headless\u003dfalse, platform\u003dANY, moz:accessibilityChecks\u003dfalse, acceptInsecureCerts\u003dfalse, browserVersion\u003d57.0.4, platformVersion\u003d17.5.0, moz:processID\u003d55028.0, browserName\u003dfirefox, javascriptEnabled\u003dtrue, platformName\u003ddarwin, moz:webdriverClick\u003dfalse}]\nSession ID: 18fa27fc-5d6a-924d-a7ff-314256d8a377\n*** Element info: {Using\u003dlink text, value\u003dYour Avatarrr}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:461)\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:246)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)\n\tat util.WebConnector.click_link_text(WebConnector.java:136)\n\tat stepDefinitions.stepDefinition.i_click_on_link_and_upload_a_picture(stepDefinition.java:58)\n\tat ✽.When I click on \"Your_Avatar_Link\" link and upload a picture(Account.feature:13)\n",
-  "status": "failed"
+  "duration": 8945146463,
+  "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.the_picture_should_be_uploaded_successfully()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 232845888,
+  "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.i_close_the_browser()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 528153714,
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 733712499,
+  "duration": 76188,
   "status": "passed"
 });
 formatter.before({
-  "duration": 354661,
+  "duration": 337458,
   "status": "passed"
 });
 formatter.scenario({
@@ -243,7 +243,7 @@ formatter.match({
   "location": "stepDefinition.Runmode_is(String)"
 });
 formatter.result({
-  "duration": 1234596,
+  "duration": 1354346,
   "error_message": "cucumber.api.PendingException: Skipping the test as Runmode is NO\n\tat stepDefinitions.stepDefinition.Runmode_is(stepDefinition.java:261)\n\tat ✽.Given Runmode is \"N\"(Account.feature:11)\n",
   "status": "pending"
 });
@@ -284,7 +284,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 21302,
+  "duration": 21762,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -362,7 +362,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "N",
+        "Y",
         "Mozilla"
       ],
       "line": 36,
@@ -370,7 +370,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "N",
+        "Y",
         "Chrome"
       ],
       "line": 37,
@@ -380,7 +380,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 435107,
+  "duration": 361730,
   "status": "passed"
 });
 formatter.scenario({
@@ -399,7 +399,7 @@ formatter.scenario({
 });
 formatter.step({
   "line": 24,
-  "name": "Runmode is \"N\"",
+  "name": "Runmode is \"Y\"",
   "matchedColumns": [
     0
   ],
@@ -451,16 +451,15 @@ formatter.step({
 formatter.match({
   "arguments": [
     {
-      "val": "N",
+      "val": "Y",
       "offset": 12
     }
   ],
   "location": "stepDefinition.Runmode_is(String)"
 });
 formatter.result({
-  "duration": 228223,
-  "error_message": "cucumber.api.PendingException: Skipping the test as Runmode is NO\n\tat stepDefinitions.stepDefinition.Runmode_is(stepDefinition.java:261)\n\tat ✽.Given Runmode is \"N\"(Account.feature:24)\n",
-  "status": "pending"
+  "duration": 86228,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -472,7 +471,8 @@ formatter.match({
   "location": "stepDefinition.i_am_logged_into_wp_nyu_edu_in(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3970857161,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -484,7 +484,8 @@ formatter.match({
   "location": "stepDefinition.i_click_on_Link(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 7059797353,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -496,7 +497,8 @@ formatter.match({
   "location": "stepDefinition.i_should_see(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 16290219,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -508,7 +510,8 @@ formatter.match({
   "location": "stepDefinition.i_click_on_Link(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 7694706779,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -520,7 +523,8 @@ formatter.match({
   "location": "stepDefinition.i_should_see(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 34138473,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -532,7 +536,8 @@ formatter.match({
   "location": "stepDefinition.i_click_on_Link(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 6072319357,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -544,20 +549,22 @@ formatter.match({
   "location": "stepDefinition.i_should_see(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 14169872,
+  "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.i_close_the_browser()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 537918504,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 22961,
+  "duration": 18188,
   "status": "passed"
 });
 formatter.before({
-  "duration": 308466,
+  "duration": 303322,
   "status": "passed"
 });
 formatter.scenario({
@@ -576,7 +583,7 @@ formatter.scenario({
 });
 formatter.step({
   "line": 24,
-  "name": "Runmode is \"N\"",
+  "name": "Runmode is \"Y\"",
   "matchedColumns": [
     0
   ],
@@ -628,16 +635,15 @@ formatter.step({
 formatter.match({
   "arguments": [
     {
-      "val": "N",
+      "val": "Y",
       "offset": 12
     }
   ],
   "location": "stepDefinition.Runmode_is(String)"
 });
 formatter.result({
-  "duration": 213269,
-  "error_message": "cucumber.api.PendingException: Skipping the test as Runmode is NO\n\tat stepDefinitions.stepDefinition.Runmode_is(stepDefinition.java:261)\n\tat ✽.Given Runmode is \"N\"(Account.feature:24)\n",
-  "status": "pending"
+  "duration": 50024,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -649,7 +655,8 @@ formatter.match({
   "location": "stepDefinition.i_am_logged_into_wp_nyu_edu_in(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5825514866,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -661,7 +668,8 @@ formatter.match({
   "location": "stepDefinition.i_click_on_Link(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5828558092,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -673,7 +681,8 @@ formatter.match({
   "location": "stepDefinition.i_should_see(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 32015138,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -685,7 +694,8 @@ formatter.match({
   "location": "stepDefinition.i_click_on_Link(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 6932462070,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -697,7 +707,8 @@ formatter.match({
   "location": "stepDefinition.i_should_see(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 31332010,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -709,7 +720,8 @@ formatter.match({
   "location": "stepDefinition.i_click_on_Link(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5982373860,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -721,16 +733,18 @@ formatter.match({
   "location": "stepDefinition.i_should_see(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 30488316,
+  "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.i_close_the_browser()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 162738749,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 22323,
+  "duration": 19595,
   "status": "passed"
 });
 });

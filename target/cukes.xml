@@ -1,40 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="3" tests="4" time="35.546092">
-<testcase classname="Account Feature" name="WebPublishing Upload Avatar Image" time="35.543251">
-<failure message="org.openqa.selenium.NoSuchElementException: Unable to locate element: Your Avatarrr&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'&#10;System info: host: 'WL41APPLEMACPROSN-F5KQ10MNF9VN.CDV.NYU.EDU', ip: 'fe80:0:0:0:c84:3324:b6f8:81d0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_51'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=/var/folders/tl/r7p60zdd2yv85_555mclzzy1_g0yrr/T/rust_mozprofile.cTQRBFUFhUkv, rotatable=false, moz:geckodriverVersion=0.23.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=57.0.4, platformVersion=17.5.0, moz:processID=55028.0, browserName=firefox, javascriptEnabled=true, platformName=darwin, moz:webdriverClick=false}]&#10;Session ID: 18fa27fc-5d6a-924d-a7ff-314256d8a377&#10;*** Element info: {Using=link text, value=Your Avatarrr}&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:422)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:461)&#10;&#9;at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)&#10;&#9;at util.WebConnector.click_link_text(WebConnector.java:136)&#10;&#9;at stepDefinitions.stepDefinition.i_click_on_link_and_upload_a_picture(stepDefinition.java:58)&#10;&#9;at ✽.When I click on &quot;Your_Avatar_Link&quot; link and upload a picture(Account.feature:13)&#10;"><![CDATA[Given Runmode is "Y"........................................................passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="4" time="64.42133">
+<testcase classname="Account Feature" name="WebPublishing Upload Avatar Image" time="14.193096">
+<system-out><![CDATA[Given Runmode is "Y"........................................................passed
 Given I am logged into wp.nyu.edu in "Mozilla"..............................passed
-When I click on "Your_Avatar_Link" link and upload a picture................failed
-Then the picture should be uploaded successfully............................skipped
-And I close the browser.....................................................skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchElementException: Unable to locate element: Your Avatarrr
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'WL41APPLEMACPROSN-F5KQ10MNF9VN.CDV.NYU.EDU', ip: 'fe80:0:0:0:c84:3324:b6f8:81d0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_51'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=/var/folders/tl/r7p60zdd2yv85_555mclzzy1_g0yrr/T/rust_mozprofile.cTQRBFUFhUkv, rotatable=false, moz:geckodriverVersion=0.23.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=57.0.4, platformVersion=17.5.0, moz:processID=55028.0, browserName=firefox, javascriptEnabled=true, platformName=darwin, moz:webdriverClick=false}]
-Session ID: 18fa27fc-5d6a-924d-a7ff-314256d8a377
-*** Element info: {Using=link text, value=Your Avatarrr}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:461)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
-	at util.WebConnector.click_link_text(WebConnector.java:136)
-	at stepDefinitions.stepDefinition.i_click_on_link_and_upload_a_picture(stepDefinition.java:58)
-	at ✽.When I click on "Your_Avatar_Link" link and upload a picture(Account.feature:13)
-]]></failure>
+When I click on "Your_Avatar_Link" link and upload a picture................passed
+Then the picture should be uploaded successfully............................passed
+And I close the browser.....................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Account Feature" name="WebPublishing Upload Avatar Image 2" time="0.001611">
+<testcase classname="Account Feature" name="WebPublishing Upload Avatar Image 2" time="0.001714">
 <skipped><![CDATA[Given Runmode is "N"........................................................pending
 Given I am logged into wp.nyu.edu in "Chrome"...............................skipped
 When I click on "Your_Avatar_Link" link and upload a picture................skipped
@@ -42,28 +15,28 @@ Then the picture should be uploaded successfully............................skip
 And I close the browser.....................................................skipped
 ]]></skipped>
 </testcase>
-<testcase classname="Account Feature" name="Verify all the links on WebPublishing landing page is funcitonal" time="0.000686">
-<skipped><![CDATA[Given Runmode is "N"........................................................pending
-Given I am logged into wp.nyu.edu in "Mozilla"..............................skipped
-When I click on "Create" Link...............................................skipped
-Then I should see "Admin_Email_Field".......................................skipped
-When I click on "Support" Link..............................................skipped
-Then I should see "WebPublishing_Help_Label"................................skipped
-When I click on "Updates" Link..............................................skipped
-Then I should see "Recent_Posts"............................................skipped
-And I close the browser.....................................................skipped
-]]></skipped>
+<testcase classname="Account Feature" name="Verify all the links on WebPublishing landing page is funcitonal" time="25.400664">
+<system-out><![CDATA[Given Runmode is "Y"........................................................passed
+Given I am logged into wp.nyu.edu in "Mozilla"..............................passed
+When I click on "Create" Link...............................................passed
+Then I should see "Admin_Email_Field".......................................passed
+When I click on "Support" Link..............................................passed
+Then I should see "WebPublishing_Help_Label"................................passed
+When I click on "Updates" Link..............................................passed
+Then I should see "Recent_Posts"............................................passed
+And I close the browser.....................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Account Feature" name="Verify all the links on WebPublishing landing page is funcitonal 2" time="0.000544">
-<skipped><![CDATA[Given Runmode is "N"........................................................pending
-Given I am logged into wp.nyu.edu in "Chrome"...............................skipped
-When I click on "Create" Link...............................................skipped
-Then I should see "Admin_Email_Field".......................................skipped
-When I click on "Support" Link..............................................skipped
-Then I should see "WebPublishing_Help_Label"................................skipped
-When I click on "Updates" Link..............................................skipped
-Then I should see "Recent_Posts"............................................skipped
-And I close the browser.....................................................skipped
-]]></skipped>
+<testcase classname="Account Feature" name="Verify all the links on WebPublishing landing page is funcitonal 2" time="24.825856">
+<system-out><![CDATA[Given Runmode is "Y"........................................................passed
+Given I am logged into wp.nyu.edu in "Chrome"...............................passed
+When I click on "Create" Link...............................................passed
+Then I should see "Admin_Email_Field".......................................passed
+When I click on "Support" Link..............................................passed
+Then I should see "WebPublishing_Help_Label"................................passed
+When I click on "Updates" Link..............................................passed
+Then I should see "Recent_Posts"............................................passed
+And I close the browser.....................................................passed
+]]></system-out>
 </testcase>
 </testsuite>
