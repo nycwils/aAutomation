@@ -26,7 +26,49 @@ public class stepDefinition {
 	
 	WebConnector selenium = WebConnector.getInstance();
 	
+	////////////// Start  - NYUHome Phase 2 Step Definitions Below - Start////////////////
+	
+	@Given("^I am logged into NYUHome in \"([^\"]*)\"$")
+	public void i_am_logged_into_NYUHome_in(String browser) throws Throwable {
+		selenium.openBrowser(browser);
+		selenium.nyuHomeDefaultLogin();
+	}
 
+
+    @When("^I click on \"([^\"]*)\" left nav link$")
+    public void i_click_on_something_left_nav_link(String strArg1) throws Throwable {
+        Thread.sleep(1000);
+    	selenium.click(strArg1);
+    }
+
+
+    @Then("^I should see the first Academics card \"([^\"]*)\" and \"([^\"]*)\"$")
+    public void i_should_see_the_first_academics_card_something_and_something(String strArg1, String strArg2) throws Throwable {
+        selenium.isElementPresent(strArg1);
+        selenium.isElementPresent(strArg2);
+    }
+
+    @When("^When I flip the \"([^\"]*)\" card$")
+    public void when_i_flip_the_something_card(String strArg1) throws Throwable {
+        selenium.click(strArg1);
+        Thread.sleep(2000);
+    }
+    
+    @Then("^I should be able to use \"([^\"]*)\" and move the \"([^\"]*)\"$")
+    public void i_should_be_able_to_use_something_and_move_the_something(String strArg1, String strArg2) throws Throwable {
+        selenium.click(strArg1);
+    	
+    	selenium.moveCardSlider(strArg2);
+    	
+        Thread.sleep(2000);
+    }
+
+    @And("^I flipback the \"([^\"]*)\" card$")
+    public void i_flipback_the_something_card(String strArg1) throws Throwable {
+        selenium.click(strArg1);
+        Thread.sleep(2000);
+    }
+ 
 	
 	/////////////WebPublishing Step Definitions Below - Start///////////////////
 	
